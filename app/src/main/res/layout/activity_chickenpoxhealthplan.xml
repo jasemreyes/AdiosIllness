@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.reyes.adiosillness.chickenpoxhealthplan">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chicken Pox Health Plan"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:id="@+id/backchkpox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Back"
+        android:onClick="chickenpox"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="430dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Over-the-counter Medications •	Use non-aspirin medications, such as acetaminophen, to relieve fever from chickenpox. •	Do not use aspirin or aspirin-containing products to relieve fever from chickenpox. The use of aspirin in children with chickenpox has been associated with Reye’s syndrome, a severe disease that affects the liver and brain and can cause death.  Your health care provider can advise you on treatment options. Antiviral medications are recommended for people with chickenpox who are more likely to develop serious disease including •	otherwise healthy people older than 12 years of age •	people with chronic skin or lung disease •	people receiving steroid therapy •	pregnant women " />
+</RelativeLayout>

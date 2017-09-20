@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.reyes.adiosillness.chickenpox">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sick"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="Chicken Pox"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/chickenpoxhealthplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health Plan"
+        android:onClick="chickenpoxhealthplan"
+        android:layout_marginRight="57dp"
+        android:layout_marginEnd="57dp"
+        android:layout_alignBaseline="@+id/MainActivity"
+        android:layout_alignBottom="@+id/MainActivity"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/MainActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="home"
+        android:onClick="MainActivity"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/chickenpoxhealthplan"
+        android:layout_toStartOf="@+id/chickenpoxhealthplan"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="21dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Treatment"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:text="Causes"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginTop="25dp"
+        android:text="Symptoms"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="•	Fever     •	Loss of appetite     •Headache                •Tiredness and a general feeling of being unwell (malaise) "
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textView13"
+        android:layout_toLeftOf="@+id/MainActivity"
+        android:layout_toStartOf="@+id/MainActivity" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_alignTop="@+id/textView14"
+        android:text="•	There are several things that can be done at home to help relieve the symptoms and prevent skin infections." />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Varicella-zoster virus (VZV) causes the chickenpox infection. Most cases occur through contact with an infected person. The virus is contagious to those around you for one to two days before your blisters appear. VZV remains contagious until all blisters have crusted over. The virus can spread through:"
+        android:layout_above="@+id/chickenpoxhealthplan"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

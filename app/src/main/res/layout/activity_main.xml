@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.reyes.adiosillness.MainActivity">
+
+
+    <Button
+        android:id="@+id/fever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="141dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:text="Fever"
+        android:onClick="fever"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/chickenpox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chicken pox"
+        android:onClick="chickenpox"
+        android:layout_alignBaseline="@+id/fever"
+        android:layout_alignBottom="@+id/fever"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/measles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Measles"
+        android:onClick="measles"
+        android:layout_alignBaseline="@+id/chickenpox"
+        android:layout_alignBottom="@+id/chickenpox"
+        android:layout_toRightOf="@+id/chickenpox"
+        android:layout_toEndOf="@+id/chickenpox"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nurse"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
